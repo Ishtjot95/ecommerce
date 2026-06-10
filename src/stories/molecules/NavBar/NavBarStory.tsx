@@ -12,7 +12,7 @@ import {
 
 export function NavBarStory() {
     return (
-        <div className="flex items-center gap-14 px-40 py-3 justify-evenly">
+        <div className="flex items-center gap-14 px-40 py-3 justify-evenly border-b">
 
             <span className="font-bold text-lg ">MAGNUM</span>
 

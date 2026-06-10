@@ -17,14 +17,17 @@ export function HomeStory() {
             <LargeBannerStory />
 
             <MultipleBannerStory />
-
-            <CategorySectionStory />
-
-            <NewArrivalTabsStory />
+            <div className="mt-20 mb-20 mx-40">
+                <CategorySectionStory />
+            </div>
+            <div className="mt-15 mb-15 mx-40">
+                <NewArrivalTabsStory />
+            </div>
 
             <PopularProductHomeStory />
-
-            <ProductHomeStory />
+            <div className="mt-20 mb-20 mx-40">
+                <ProductHomeStory />
+            </div>
 
             <BottomBannerStory />
 

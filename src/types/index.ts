@@ -19,4 +19,30 @@ export interface Product {
   price: number
   image: string
   isWishlisted?: boolean
+};
+
+// ----Breadcrumb----
+export interface BreadcrumbItem {
+  label: string
+  href?: string
+};
+export interface BreadcrumbProps {
+  items: BreadcrumbItem[]
+};
+
+// ----Product Detail-----
+interface Spec {
+  label: string
+  value: string | string[]
+};
+export interface SpecSectionProps {
+  title: string
+  specs: Spec[]
 }
+// ---- For stepper ----
+export interface StepProps {
+  onNext: () => void
+  onBack: () => void
+}
+
+
